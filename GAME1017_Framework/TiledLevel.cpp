@@ -130,6 +130,7 @@ void TiledLevel::Render()
 			}
 			PAMA::DrawLists();
 			PAMA::DrawPath(); // Opted to draw the path in the TiledLevel Render.
+			PAMA::DrawSmoothPath();
 		}
 	}
 }
