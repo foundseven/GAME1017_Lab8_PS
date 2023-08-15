@@ -19,9 +19,12 @@ public:
 	static void DrawLists();
 	static void ClearPath();
 	static void ClearLists();
+
+	//added here
 	static void DrawSmoothPath(); // Draw utility.
 	static void SmoothPath(); // Smoothing algorithm.
 	static bool CheckPathSegment(PathConnection* c); // LOS utility.
+
 	static std::vector<PathConnection*>& GetPath();
 
 private:

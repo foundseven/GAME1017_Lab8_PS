@@ -32,6 +32,7 @@ public:
 	PathNode* GetFromNode() { return m_pFromNode; }
 	PathNode* GetToNode() { return m_pToNode; }
 
+	//added
 	void SetFromNode(PathNode* node) { m_pFromNode = node; }
 	void SetToNode(PathNode* node) { m_pToNode = node; }
 
